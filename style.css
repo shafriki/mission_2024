@@ -12,5 +12,57 @@
 }
 .banner-img img {
     width: 426px;
-    height: 466px;
+    height: 496px;
+    margin: 0px 170px 0px 0px;
+}
+.banner-title {
+    font-family: Yeseva One;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 503px;
+    color: rgb(51, 51, 51);
+    margin: 200px 131px 15px 120px;
+}
+.banner-title span {
+    color: rgb(255, 173, 90);
+}
+.banner-description {
+    color: rgb(62, 62, 62);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    width: 471px;
+    margin: 0px 179px 19px 120px;
+}
+.banner-btn {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    width: 172px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    margin: 0px 0px 30px 120px;
+
+}
+.banner-btn:hover {
+    background-color: rgb(255, 173, 90);
+}
+.scrol {
+    color: rgb(67, 67, 67);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 82px 120px;
+}
+
+* {
+    border: 1px solid red;
 }
