@@ -123,6 +123,58 @@
     text-align: justify;
 }
 
-* {
+
+/* * {
     border: 1px solid red;
+} */
+/* develop section */
+.coding-img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    left: 170px;
+}
+.shape-one {
+    width: 227px;
+    height: 227px;
+    position: absolute;
+    left: 76px;
+    top: 1354px;
+}
+.develop-content {
+    display: flex;
+    align-items: center;
+    gap: 260px;
+}
+.develop-title {
+    margin: 51px 0px 17px 0px;
+    color: rgb(51, 51, 51);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    width: 305px;
+}
+.develop-description {
+    width: 654px;
+    color: rgb(62, 62, 62);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+}
+.develop-btn {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    width: 243px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+.develop-btn:hover {
+    background-color: rgb(255, 173, 90);;
 }

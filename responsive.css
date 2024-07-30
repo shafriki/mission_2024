@@ -54,4 +54,44 @@
     .mission-title {
         width: 100px;
     }
+    .develop-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .coding-img {
+        width: 250px;
+        height: 250px;
+        left: 0px;
+    }
+    .shape-one {
+        width: 159px;
+        height: 159px;
+        left: 15px;
+        top: 2554px;
+    }
+    .develop-title {
+        margin: 51px 0px 17px 0px;
+        color: rgb(51, 51, 51);
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 700;
+        width: 340px;
+        text-align: center;
+
+    }
+    .develop-description {
+        width: 300px;
+        color: rgb(62, 62, 62);
+        font-family: Poppins;
+        font-size: 13px;
+        text-align: justify;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    .develop-btn {
+        margin: 0px 50px 150px 20px;
+    }
+    .mission-content {
+        margin-bottom: 180px;
+    }
 }
