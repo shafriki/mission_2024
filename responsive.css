@@ -29,4 +29,29 @@
         height: 396px;
         margin: 0px 0px 80px 0px;
     }
+    .mission-containers {
+        flex-direction: column;
+    }
+    .container-one {
+        width: 320px;
+        height: 356px;
+    }
+    .mission-titles {
+        font-size: 30px;
+    }
+    .container-two {
+        width: 320px;
+        height: 356px;
+    }
+    .container-three {
+        width: 320px;
+        height: 386px;
+    }
+    .mission-description {
+        font-size: 13px;
+        width: 280px;
+    }
+    .mission-title {
+        width: 100px;
+    }
 }
