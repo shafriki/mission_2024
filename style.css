@@ -227,3 +227,94 @@
     cursor: pointer;
     margin: 0px 0px 17px 170px;
 }
+.community-btn:hover {
+    background-color: rgb(255, 173, 90);
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+/* app section */
+.app-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+}
+.app-title span {
+    color: rgb(255, 173, 90);
+}
+.app-img {
+    width: 299px;
+    height: 499px;
+    position: relative;
+    z-index: 1;
+    margin: 135px 0px 100px 327px;
+}
+.s-one {
+    width: 147px;
+    height: 147px;
+    position: absolute;
+    left: 340px;
+    top: 2557px;
+}
+.s-two {
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    left: 590px;
+    top: 2944px;
+
+}
+.s-three {
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    left: 360px;
+    top: 3000px;
+}
+.app-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corona {
+    display: flex;
+    gap: 101px;
+}
+.corona-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    width: 379px;
+    margin: 187px 304px 0px 16px;
+}
+.corona-title span {
+    color: rgb(255, 173, 90);
+}
+.corona-description {
+    color: rgb(62, 62, 62);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    width: 525px;
+    margin: 0px 158px 16px 15px;
+}
+.corona-btn {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    width: 157px;
+    height: 48px;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    color: ;
+}
+.corona-btn:hover {
+    background-color: rgb(255, 173, 90);
+}
