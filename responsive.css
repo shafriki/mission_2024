@@ -1,0 +1,32 @@
+/* responsive design for x small devices */
+@media screen and (max-width:576px){
+    .banner-content {
+        flex-direction: column;
+    }
+    .banner-img img {
+        margin: 0px;
+    }
+    .banner-title {
+        font-size: 37px;
+        width: 310px;
+        margin: 150px 0px 19px 30px;
+    }
+    .banner-description {
+        color: rgb(62, 62, 62);
+        font-size: 14px;
+        width: 300px;
+        margin: 0px 0px 19px 30px;
+    }
+    .banner-btn {
+        margin: 0px 0px 30px 30px;
+    }
+    .scrol {
+        font-size: 13px;
+        margin: 0px 0px 82px 30px;
+    }
+    .banner-img img {
+        width: 350px;
+        height: 396px;
+        margin: 0px 0px 80px 0px;
+    }
+}
