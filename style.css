@@ -62,10 +62,63 @@
     font-weight: 400;
     margin: 0px 0px 82px 120px;
 }
-
-* {
-    border: 1px solid red;
+.mission-titles {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(19, 16, 58);
 }
-.banner-img {
-    border: 1px solid green;
+.mission-titles span {
+    color: rgb(255, 173, 90);
+}
+/* my mission section */
+.mission-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.mission-containers {
+    display: flex;
+    gap: 30px;
+}
+.container-one {
+    width: 360px;
+    height: 376px;
+    border-radius: 26px;
+    background: rgba(79, 157, 166, 0.1);
+}
+.container-two {
+    width: 360px;
+    height: 376px;
+    border-radius: 26px;
+    background: rgba(255, 89, 89, 0.1);
+}
+.container-three {
+    width: 360px;
+    height: 376px;
+    border-radius: 26px;
+    background: rgb(255, 244, 214);
+}
+.mission-img {
+    width: 141px;
+    height: 141px;
+    margin: 25px 187px 12px 32px;
+}
+.mission-title {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px 222px 16px 32px;
+}
+.mission-description {
+    color: rgb(66, 66, 66);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 13px 45px 32px;
+    width: 315px;
+    text-align: justify;
 }
