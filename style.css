@@ -313,8 +313,34 @@
     border: none;
     margin-left: 15px;
     cursor: pointer;
-    color: ;
 }
 .corona-btn:hover {
     background-color: rgb(255, 173, 90);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.footer-title {
+    font-family: Lobster;
+    font-size: 36px;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+    margin: 5px 0px 0px 0px;
+}
+.footer-title span {
+    color: rgb(255, 89, 89);
+}
+.footer-description {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+}
+body {
+    margin: 0px;
+    padding: 0px;
 }
